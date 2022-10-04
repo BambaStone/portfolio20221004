@@ -1,0 +1,49 @@
+* {
+  font-family: 'Press Start 2p','Nanum Gothic';
+}
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 250px 300px 300px;
+  position: absolute;
+  background: #666;
+  padding: 10px 10px;
+  border: 1px solid black;
+}
+
+.tetris-left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.tetris-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.game-board {
+  border: solid 2px;
+  background: linear-gradient(90deg ,#aaa 0.5px,#888 0px, #888 24px,#888 0px,#aaa 0.5px);
+  background-size: 25px 100%;
+}
+
+.play-button {
+  background-color: #4caf50;
+  font-size: 16px;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+#pause-btn {
+  display: none;
+}
+

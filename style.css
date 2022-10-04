@@ -1,0 +1,191 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    /*font-family: 'Nanum Gothic', sans-serif;*/
+    box-sizing: border-box;
+}
+body{
+    background: #aaa;
+}
+header{
+    width: 100%;
+    font-family: 'Press Start 2p','Nanum Gothic';
+    height: 100px;
+    background: #eee;
+    border-bottom: 10px dashed black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.top{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+.top > h1{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 35px;
+}
+.top > h1 > a{
+    text-decoration: none;
+    color: black;
+}
+.top > h1> a:hover{
+    color: red;
+}
+.top >ul>li>h2> a>span{
+    font-size: 24px;
+}
+.top >ul>li>h2> a{
+    text-decoration: none;
+}
+.nowpage{
+    color : blue;
+}
+.top >ul>li>h2> a:hover{
+    color : red;
+}
+.otherpage{
+    color : black
+}
+.top >ul>li>h2> a>i{
+    font-size: 30px;
+}
+.top >ul{
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 450px;
+    transform: translateY(-50%);
+    display: inline-block;
+}
+.top >ul>li{
+    float: left;
+    margin-right: 40px;
+}
+
+#mains{
+    background: #eee;
+    margin: 0 auto;
+    width: 1200px;
+    border: 10px dashed black;
+    border-top: none;
+    position: relative;
+    top: 100px;
+}
+
+
+#leftside{
+    font-family: 'Press Start 2p','Nanum Gothic';
+    font-size: 13px;
+    position: absolute;
+    left: 10px;
+}
+
+#sides{
+    position: fixed;
+    width: 190px;
+    top: 110px;
+    border: 10px dashed rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    background: #ccc;
+    height: 85%;
+}
+
+#sides > ol{
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+#sides >ol>li{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+#sides >ol>li>a{
+    color: black;
+    text-decoration: none;
+}
+
+#sides >ol>li>a:hover{
+    color: red;
+}
+#sides >ol> .smallli{
+    margin-top: 20px;
+    margin-left: 20px;
+    word-spacing: -5px;
+    font-weight: 800;
+}
+
+
+#hello{
+    width: 100%;
+    padding: 100px 10px 100px 100px;
+}
+
+#hello > p{
+    font-size: 30px;
+    font-family: 'Press Start 2p','Nanum Gothic';
+}
+
+#content{
+    position: relative;
+    left: 200px;
+    top: 0;
+    width: 1000px;
+}
+#content>ol{
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+#content>ol>li{
+    font-family: 'Press Start 2p','Nanum Gothic';
+    width: 940px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: 10px solid rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+#content>ol>li > h3{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+#content>ol>li > h3::before{
+    content: "";
+    width: 500px;
+    top: 20px;
+    height: 1px;
+    border-bottom: 10px dashed black;
+}
+#content>ol>li > p{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#content>ol>li > p>a{
+    text-decoration: none;
+    color :black;
+}
+#content>ol>li > p>a>i{
+    font-size: 20px;
+}
+#content>ol>li >h4{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 800;
+}
+#content>ol>li>img{
+    width: 880px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
